@@ -1,4 +1,4 @@
-module github.com/kubernetes-csi/lib-volume-populator
+module github.com/xwang0818/lib-volume-populator
 
 go 1.16
 

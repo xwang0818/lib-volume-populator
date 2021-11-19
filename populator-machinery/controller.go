@@ -555,6 +555,7 @@ func (c *controller) syncPvc(ctx context.Context, key, pvcNamespace, pvcName str
 						Resources:        pvc.Spec.Resources,
 						StorageClassName: pvc.Spec.StorageClassName,
 						VolumeMode:       pvc.Spec.VolumeMode,
+						Selector:         pvc.Spec.Selector,
 					},
 				}
 				if waitForFirstConsumer {
